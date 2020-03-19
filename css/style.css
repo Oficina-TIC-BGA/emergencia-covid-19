@@ -68,7 +68,7 @@ body, html {
 #status img {
 }
 a {
-	color: #797979;
+	color: #6186F5;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -853,7 +853,7 @@ ul{
 	float:left;
 	width:100%;
 	padding-top:70px;
-	background-image: url(../Emergencia/Asset9.png) !important;
+	background-color: #F5566D;
 	height: 900px;
 }
 .jp_job_heading h1{
@@ -4256,7 +4256,10 @@ background:#fff;
 }
 
 #imagendiagrama{
-	width:100%;
+	width:80%;
+    margin:10px auto;
+    display:block;
+    padding-top: 30px;
 }
 
 
@@ -4287,5 +4290,20 @@ background:#fff;
 	 }
 	 .jp_banner_heading_cont_wrapper {
 		width: 100%;
+        height: 1050px;
+    
 	}
+    
  }
+
+ @media only screen and (max-width: 600px) {
+
+    h1.titulo {
+        font-size: 40px !important;
+    }
+
+    small.titulo_number{
+        font-size: 80px !important;
+    }
+ }
+
