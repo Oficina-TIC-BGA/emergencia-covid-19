@@ -853,6 +853,8 @@ ul{
 	float:left;
 	width:100%;
 	padding-top:70px;
+	background-image: url(../Emergencia/Asset9.png) !important;
+	height: 1000px;
 }
 .jp_job_heading h1{
 	font-size:60px;
@@ -4251,6 +4253,15 @@ background:#fff;
 	    padding-top: 100px;
 }
 
+.nuevaclase1{
+	float:left;
+	width:100% !important;
+	padding-top:70px;
+	background-image: url(../Emergencia/Asset10.png) !important;
+	height: 1000px;
+}
+
+
 @-webkit-keyframes pulse {
   to {
     box-shadow: 0 0 0 30px rgba(35, 192, 233, 0.08);
@@ -4276,4 +4287,7 @@ background:#fff;
 	#mapa {
 		 width: 100%;
 	 }
+	 .jp_banner_heading_cont_wrapper {
+		width: 100%;
+	}
  }
