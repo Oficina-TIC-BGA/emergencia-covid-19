@@ -2952,6 +2952,7 @@ ul{
 	width:100%;
 	border-bottom:2px solid #e9e9e9;
 	padding-bottom:80px;
+	background-color: #00a89a;
 }
 .pricing_box1_wrapper{
 	background:#fff;
@@ -2998,7 +2999,6 @@ ul{
 }
 .box1_heading_wrapper h4:before {
     content: '';
-    border: 1px solid #F7A400;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -3008,7 +3008,6 @@ ul{
 }
 .box1_heading_wrapper h4:after {
     content: '';
-    border: 1px solid #F7A400;
     width: 30px;
     position: absolute;
     bottom: -15px;
@@ -3026,7 +3025,6 @@ ul{
 }
 .box2_heading_wrapper h4:before {
     content: '';
-    border: 1px solid #f36969;
     width: 8px;
     position: absolute;
     bottom: -15px;
@@ -3036,13 +3034,12 @@ ul{
 }
 .box2_heading_wrapper h4:after {
     content: '';
-    border: 1px solid #f36969;
     width: 30px;
     position: absolute;
     bottom: -15px;
     left: 0;
     right: 0;
-    margin: 0px auto;
+	margin: 0px auto;
 }
 .box3_heading_wrapper h4{
 	font-size:20px;
@@ -3477,7 +3474,6 @@ ul{
 	left:0%;
 	right:0%;
 	bottom:0%;
-	background:#111111a8;
 }
 .jp_newsletter_text{
 	float:left;
@@ -3570,10 +3566,6 @@ ul{
 /*-- Newsletter css End --*/
 /*-- jp footer Wrapper Start --*/
 .jp_main_footer_img_wrapper{
-	background:url('../images/header/DJI_0188.jpg') 50% 0 repeat-y;
-	background-position:center 0;
-	background-size:cover;
-	background-repeat:no-repeat;
 	float:left;
 	width:100%;
 	height:100%;
