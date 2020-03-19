@@ -854,7 +854,7 @@ ul{
 	width:100%;
 	padding-top:70px;
 	background-image: url(../Emergencia/Asset9.png) !important;
-	height: 1000px;
+	height: 900px;
 }
 .jp_job_heading h1{
 	font-size:60px;
@@ -1152,6 +1152,11 @@ ul{
 .jp_first_sidebar_main_wrapper{
 	float:left;
 	width:100%;
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+	border-top: 2px solid rgb(224, 18, 97);
+	border-bottom: 2px solid rgb(224, 18, 97);
 }
 .jp_hiring_slider_main_wrapper{
 	float:left;
@@ -4255,10 +4260,11 @@ background:#fff;
 
 .nuevaclase1{
 	float:left;
-	width:100% !important;
 	padding-top:70px;
-	background-image: url(../Emergencia/Asset10.png) !important;
-	height: 1000px;
+}
+
+#imagendiagrama{
+	width:100%;
 }
 
 
