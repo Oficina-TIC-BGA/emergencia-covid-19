@@ -412,6 +412,8 @@
 }
 .fa-forward:before {
   content: "\f04e";
+  color: #38D9B3;
+
 }
 .fa-fast-forward:before {
   content: "\f050";
@@ -556,9 +558,11 @@
 }
 .fa-twitter-square:before {
   content: "\f081";
+  color: #F5566D;
 }
 .fa-facebook-square:before {
   content: "\f082";
+
 }
 .fa-camera-retro:before {
   content: "\f083";
@@ -1217,6 +1221,7 @@
 }
 .fa-instagram:before {
   content: "\f16d";
+  color: #F5566D;
 }
 .fa-flickr:before {
   content: "\f16e";
@@ -1786,6 +1791,7 @@
 }
 .fa-facebook-official:before {
   content: "\f230";
+  color: #F5566D;
 }
 .fa-pinterest-p:before {
   content: "\f231";
