@@ -964,7 +964,7 @@ header {
     transition: all 0.5s;
 }
 .cd-dropdown-content li a:hover{
-	background:#F7A400;
+	background:#F5566D;
 	color:#ffffff;
 	    -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
