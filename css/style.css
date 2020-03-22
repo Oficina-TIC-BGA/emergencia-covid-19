@@ -4410,6 +4410,10 @@ bottom: -25%;
         margin-left: 40px !important;
 
  }
+ #telefonos {
+	display: none;
+	
+	}
  
  }
 
@@ -4449,6 +4453,11 @@ bottom: -25%;
         margin-left: 40px !important;
 
  }
+
+ #telefonos {
+	display: none;
+	
+	}
  
  }
 
