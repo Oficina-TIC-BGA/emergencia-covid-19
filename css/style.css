@@ -4375,6 +4375,16 @@ bottom: -25%;
     
  }
 
+ @media only screen and (max-width: 768px) {
+	#telefonos {
+		display: none;
+		
+		}
+    
+	}
+    
+ 
+
  @media only screen and (max-width: 478px) {
     h1 {
         font-size: 2.5em !important;
@@ -4454,10 +4464,7 @@ bottom: -25%;
 
  }
 
- #telefonos {
-	display: none;
-	
-	}
+
  
  }
 
