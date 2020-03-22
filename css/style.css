@@ -78,7 +78,7 @@ a:hover, a:focus {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Barlow', sans-serif;
-	line-height: 0.8;
+	line-height: ;
 	color: #222222;
 	font-weight: bold;
 }
@@ -4387,13 +4387,13 @@ bottom: -25%;
 
  @media only screen and (max-width: 478px) {
     h1 {
-        font-size: 2.5em !important;
+        font-size: 2.8em !important;
     }
     h2{
-        font-size: 1.5em !important;
+        font-size: 1.8em !important;
 	}
 	h3{
-        font-size: 1em !important;
+        font-size: 1.2em !important;
     }
 
      small.titulo_number{
