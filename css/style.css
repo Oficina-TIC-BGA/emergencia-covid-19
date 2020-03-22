@@ -904,7 +904,7 @@ ul{
 .jp_banner_heading_cont_wrapper{
 	float:left;
 	width:100%;
-	padding: 20px 0 20px 0;
+	padding: 20px 15px 20px 15px;
 	background-color: #F5566D;
 	height: auto;
 	text-align: center;
@@ -4387,7 +4387,7 @@ bottom: -25%;
 
  @media only screen and (max-width: 478px) {
     h1 {
-        font-size: 2.8em !important;
+        font-size: 2.5em !important;
     }
     h2{
         font-size: 1.8em !important;
