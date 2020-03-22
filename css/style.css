@@ -80,12 +80,23 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 	font-family: 'Barlow', sans-serif;
 	line-height: 0.8;
 	color: #222222;
-	padding:0;
-    font-weight: bold;
+	font-weight: bold;
 }
 
-h1.titulo{
-    font-size: 88px; 
+h1{
+    font-size: 4.5em; 
+    color: #FFF; 
+    font-style: italic;
+	font-weight: 900;
+	padding-top:10px;
+     font-display: swap;
+  src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO452ohvTobdw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  
+  }
+
+  h2{
+    font-size: 2.4em; 
     color: #FFF; 
     font-style: italic;
     font-weight: 900;
@@ -95,11 +106,11 @@ h1.titulo{
   
   }
 
-  h3.titulo_dos{
-    font-size: 39px; 
+  h3{
+    font-size: 1.438em; 
     color: #FFF; 
     font-style: italic;
-    font-weight: 900;
+    font-weight: 400;
      font-display: swap;
   src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO452ohvTobdw.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
@@ -107,9 +118,9 @@ h1.titulo{
 
   }
 
-  h4.titulo_tres{
+  h4{
   
-  font-size: 29px;
+  font-size: 1em;
   font-family: 'Barlow';
   font-style: italic;
   color: #FFF; 
@@ -119,27 +130,7 @@ h1.titulo{
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-  h4.Number{
-  font-size: 110px;
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 900;
-  color: #FFF; 
-  font-display: swap;
-  src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO452ogvTobdw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
-
-   h4.Number_dos{
-  font-size: 77px;
-  font-family: 'Barlow';
-  font-style: italic;
-  font-weight: 900;
-  color: #FFF; 
-  font-display: swap;
-  src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO452ogvTobdw.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
-  }
+  
 input, select, button, textarea {
 	outline: none;
 }
@@ -172,7 +163,7 @@ ul{
 }
 
 .header-area {
-	padding-top: 15px;
+	padding-top:30px;
     width: 100%;
     z-index: 9999;
     -webkit-transition: all 0.3s ease 0s;
@@ -200,6 +191,7 @@ ul{
 	width:100%;
 	height:100%;
 	position:relative;
+	max-height: 100px;
 }
 
 .jp_top_header_wrapper{
@@ -253,7 +245,8 @@ ul{
 .gc_main_menu_wrapper{
 	float:left;
 	width:100%;
-	padding-top: 30px;
+	padding-top: 0px;
+	max-height: 100px;
 	border-bottom: 1px solid #ffffff21;
 	position:relative;
 }		
@@ -309,7 +302,8 @@ ul{
 .mainmenu ul li a {
     color: #000000;
     display: block;
-    font-size: 14px;
+	font-size: 1em;
+	font-weight: 300;
     letter-spacing: 1px;
 	text-transform: capitalize;
     padding: 0px 20px 47px 10px;
@@ -910,9 +904,11 @@ ul{
 .jp_banner_heading_cont_wrapper{
 	float:left;
 	width:100%;
-	padding-top:70px;
+	padding: 20px 0 20px 0;
 	background-color: #F5566D;
-	height: 900px;
+	height: auto;
+	text-align: center;
+
 }
 .jp_job_heading h1{
 	font-size:60px;
@@ -4332,6 +4328,18 @@ background:#fff;
 
 }
 
+#telefonos {
+z-index: 1;
+position: absolute;
+bottom: -25%;
+
+}
+
+#textos {
+	z-index: 2;
+	position: relative;
+		}
+
 
 
 @-webkit-keyframes pulse {
@@ -4361,27 +4369,24 @@ background:#fff;
 	 }
 	 .jp_banner_heading_cont_wrapper {
 		width: 100%;
-        height: 1050px;
+        height: auto;
     
 	}
     
  }
 
- @media only screen and (max-width: 600px) {
-
-   
-    h1.titulo {
-        font-size: 35px !important;
+ @media only screen and (max-width: 478px) {
+    h1 {
+        font-size: 2.5em !important;
     }
-    h2.titulo_cuatro{
-        font-size: 23px !important;
-    }
-
-     h1.footer1 {
-        font-size: 35px !important;
+    h2{
+        font-size: 1.5em !important;
+	}
+	h3{
+        font-size: 1em !important;
     }
 
-    small.titulo_number{
+     small.titulo_number{
         font-size: 80px !important;
     }
 
@@ -4404,33 +4409,50 @@ background:#fff;
         width: 80% !important;
         margin-left: 40px !important;
 
+ }
+ 
+ }
+
+ @media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 2em !important;
     }
+    h2{
+        font-size: 1.2em !important;
+	}
+	h3{
+		font-size: 1em !important;
+		line-height: 0.8em;
+    }
+
+     small.titulo_number{
+        font-size: 30px !important;
+    }
+
+     h4.titulo_tres{
+        font-size: 18px !important;
+    }
+     h4.Number{
+        font-size: 1,5em !important;
+        margin-top: 20px!important;
+    }
+    h4.Number_dos{
+         font-size: 1em !important;
+    }
+
+    h4#celular{
+       font-size: 40px!important;
+    }
+
+    div#caja_colores{
+        width: 80% !important;
+        margin-left: 40px !important;
+
+ }
+ 
  }
 
 
- @media only screen and (max-width: 992px) {
 
-    div.caja{
-       margin-bottom: 20px;
-    }
- }
 
- @media only screen and (max-width: 300px) {
 
-    h1.titulo {
-        font-size: 28px !important;
-    }
-    h4.Number{
-        font-size: 80px !important;
-    }
-
-    h4.titulo_tres{
-        font-size: 23px !important;
-    }
-}
-
- @media only screen and (max-width: 400px) {
-img#img_footer{
-    width: 300px !important;
-}
-}
