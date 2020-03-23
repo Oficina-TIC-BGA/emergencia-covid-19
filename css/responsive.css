@@ -223,11 +223,10 @@
 	.mainmenu{
 		right:-25px;
 	}
+	
 }
 @media (max-width: 1250px){
-	.full_width{
-		width:100%;
-	}
+	
 	.gc_right_menu{
 		display:none;
 	}
