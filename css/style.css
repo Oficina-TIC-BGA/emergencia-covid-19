@@ -4370,7 +4370,7 @@ bottom: -30%;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1023px) {
 	#telefonos1 {
 		display: none;
 	}
@@ -4389,20 +4389,21 @@ bottom: -30%;
         height: auto;
     
 	}
-   
+
  }
 
  @media only screen and (max-width: 1025px) {
-	#telefonos {
-		display: none;
-		
-		}
+	
 		#telefonos1 {
 			z-index: 1;
 			position: absolute;
 			float: left;
 			bottom: 20%;
 		}
+		#telefonos {
+			display: none;
+			
+			}
 	}
     
  
@@ -4442,15 +4443,12 @@ bottom: -30%;
         margin-left: 40px !important;
 
  }
- #telefonos {
-	display: none;
-	
-	}
+
 	#telefonos1 {
 		z-index: 1;
 		position: absolute;
 		float: left;
-		bottom: 12%;
+		bottom: 15%;
 	}
  
  }
