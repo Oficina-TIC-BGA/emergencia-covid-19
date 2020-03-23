@@ -88,7 +88,7 @@ h1{
     color: #FFF; 
     font-style: italic;
 	font-weight: 900;
-	padding-top:10px;
+	padding-top:0px;
      font-display: swap;
   src: local('Barlow Black Italic'), local('Barlow-BlackItalic'), url(https://fonts.gstatic.com/s/barlow/v4/7cHsv4kjgoGqM7E_CfO452ohvTobdw.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
@@ -4387,7 +4387,8 @@ bottom: -30%;
 
  @media only screen and (max-width: 478px) {
     h1 {
-        font-size: 2.5em !important;
+		font-size: 2.5em !important;
+		line-height: ;
     }
     h2{
         font-size: 1.8em !important;
