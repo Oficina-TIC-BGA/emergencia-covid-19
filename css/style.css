@@ -4398,7 +4398,7 @@ bottom: -30%;
 			z-index: 1;
 			position: absolute;
 			float: left;
-			bottom: 20%;
+			bottom: 15%;
 		}
 		#telefonos {
 			display: none;
@@ -4448,7 +4448,7 @@ bottom: -30%;
 		z-index: 1;
 		position: absolute;
 		float: left;
-		bottom: 15%;
+		bottom: 12%;
 	}
  
  }
