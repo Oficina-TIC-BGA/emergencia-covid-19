@@ -4335,7 +4335,7 @@ bottom: -30%;
 
 }
 #telefonos1 {
-	z-index: 1;
+	z-index: 1; 
 	position: absolute;
 	float: left;
 	bottom: -30%;
