@@ -4334,6 +4334,13 @@ position: absolute;
 bottom: -30%;
 
 }
+#telefonos1 {
+	z-index: 1;
+	position: absolute;
+	float: left;
+	bottom: -30%;
+	
+	}
 
 #textos {
 	z-index: 2;
@@ -4363,6 +4370,16 @@ bottom: -30%;
   }
 }
 
+@media only screen and (min-width: 1024px) {
+	#telefonos1 {
+		display: none;
+	}
+    
+	}
+
+	
+   
+ 
 @media only screen and (max-width: 1200px) {
 	#mapa {
 		 width: 100%;
@@ -4372,15 +4389,20 @@ bottom: -30%;
         height: auto;
     
 	}
-    
+   
  }
 
- @media only screen and (max-width: 768px) {
+ @media only screen and (max-width: 1024px) {
 	#telefonos {
 		display: none;
 		
 		}
-    
+		#telefonos1 {
+			z-index: 1;
+			position: absolute;
+			float: left;
+			bottom: -25%;
+		}
 	}
     
  
