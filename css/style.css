@@ -4401,7 +4401,7 @@ bottom: -30%;
 			z-index: 1;
 			position: absolute;
 			float: left;
-			bottom: 15%;
+			bottom: 12%;
 		}
 	}
     
@@ -4410,8 +4410,7 @@ bottom: -30%;
  @media only screen and (max-width: 478px) {
     h1 {
 		font-size: 2.5em !important;
-		line-height: ;
-    }
+		 }
     h2{
         font-size: 1.8em !important;
 	}
@@ -4451,7 +4450,7 @@ bottom: -30%;
 		z-index: 1;
 		position: absolute;
 		float: left;
-		bottom: 5%;
+		bottom: 20%;
 	}
  
  }
