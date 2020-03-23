@@ -4401,7 +4401,7 @@ bottom: -30%;
 			z-index: 1;
 			position: absolute;
 			float: left;
-			bottom: 18%;
+			bottom: 15%;
 		}
 	}
     
@@ -4446,6 +4446,12 @@ bottom: -30%;
  #telefonos {
 	display: none;
 	
+	}
+	#telefonos1 {
+		z-index: 1;
+		position: absolute;
+		float: left;
+		bottom: 5%;
 	}
  
  }
