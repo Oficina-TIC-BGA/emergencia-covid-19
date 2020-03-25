@@ -3133,15 +3133,16 @@ ul{
 /*-- Newsletter css End --*/
 /*-- jp footer Wrapper Start --*/
 .jp_main_footer_img_wrapper{
-	background:url('../images/content/footer_bg.jpg') 50% 0 repeat-y;
+	/*background:url('../images/content/footer_bg.jpg') 50% 0 repeat-y;
 	background-position:center 0;
 	background-size:cover;
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
 	float:left;
 	width:100%;
 	height:100%;
 	position:relative;
 	border-bottom:2px solid #23c0e9;
+    background-color: #F5566D;
 }
 .jp_footer_logo_wrapper{
 	float:left;
