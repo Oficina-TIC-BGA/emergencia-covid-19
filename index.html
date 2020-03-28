@@ -234,32 +234,52 @@ Purchase:
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
-                       <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       <!--<iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                        <img src="Emergencia/Asset1212.png" width="315px" height="320px">
+                     
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
-                       <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       <!--<iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                         <video id="video1" width="315px" height="320px" controls="controls" frameborder="0" allowfullscreen>
+                           <source src="Emergencia/video1.mp4" type="video/mp4">
+                       </video>
+                       
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
-                       <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                       <!--<iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                       <video  width="315px" height="320px" controls="controls" frameborder="0" allowfullscreen>
+                           <source src="Emergencia/video2.mp4" type="video/mp4">
+                       </video>
+                       
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
-                       <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <!-- <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                      <video  width="315px" height="320px" controls="controls" frameborder="0" allowfullscreen>
+                           <source src="Emergencia/video3.mp4" type="video/mp4">
+                       </video>
+                      
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
-                       <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <video  width="315px" height="320px" controls="controls" frameborder="0" allowfullscreen>
+                           <source src="Emergencia/video4.mp4" type="video/mp4">
+                       </video>
+
+                       <!--<iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 caja">
                     <div class="pricing_box1_wrapper pricing_border_box2_wrapper">
+
                        <iframe width="300px" height="320px" src="https://www.youtube.com/embed/PJWjQWQRVzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      
                     </div>
                 </div>
                     </div>
@@ -336,7 +356,7 @@ Purchase:
                                 <div class="item jp_recent_main">
                                     <div class="jp_career_main_box_wrapper">
                                         <div class="jp_career_img_wrapper">
-                                            <img src="images/content/car_img1.jpg" alt="career_img" />
+                                            <img src="images/content/car_img1.jpg" alt="career_img"  />
                                         </div>
                                         <div class="jp_career_cont_wrapper">
                                             <p><i class="fa fa-calendar"></i>&nbsp;&nbsp; <a href="#">24 MARZO, 2020</a>
@@ -530,6 +550,20 @@ Purchase:
     <script src="js/modernizr.js"></script>
     <script src="js/custom.js"></script>
     <script src="js/custom_vi.js"></script>
+    <script type="text/javascript">
+         
+
+       $(document).ready(function(){
+     var video = $("#video1")[0];
+      $(".jp_pricing_main_wrapper").mouseover(function() {
+       video.play();
+
+})
+
+
+
+        })
+    </script>
 
     <!--main js file end-->
 </body>
