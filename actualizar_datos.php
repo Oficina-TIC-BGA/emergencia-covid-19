@@ -91,7 +91,7 @@ Purchase:
                                             <div class="gc_logo">
                                                 <a href="https://www.bucaramanga.gov.co/Inicio/"><img
                                                         src="Emergencia/asset_mobile.png"
-                                                        alt="Logo" title="#CuidemonosTodos"></a>
+                                                        alt="Logo" title="#QuédateenCasa"></a>
                                             </div>
                                         </div>
                                         <div class="col-xs-6 col-sm-6">
@@ -145,7 +145,7 @@ Purchase:
                                                         </li>
                                                         
                                                         <li>
-                                                            <a href="index.html">Inicio?</a>
+                                                            <a href="index.html">Inicio</a>
 
                                                                                    
                                                         </li>
@@ -190,22 +190,21 @@ Purchase:
         <div class="row">
 
             <form action="motor/controlador.php" method="POST">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                    <div class="pricing_box1_wrapper pricing_border_box2_wrapper" style="height: 320px;">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12" >
+                    <div class="pricing_box1_wrapper pricing_border_box2_wrapper" style="height: 320px; padding:10%;">
                         <div>
-                            <h2 align="center" style="color:#38D9B3; font-size: 30px; font-weight: bolder; text-transform: capitalize;">Validar</h2>
+                            <h2 align="center" style="color:#111111; font-size: 30px;">Ingrese su número de identificación</h2>
                         </div>
 
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><br>
-                           <label class="input-control" for="VD00" style="font-family: 'Barlow', sans-serif;">Numero de identificacion * </label>
                            <input type="text" class="form-control" name="VD00" id="VD00" required="">
                            <input type="hidden" class="form-control" name="Archivo" value="validar">
                            <input type="hidden" class="form-control" name="Clase" value="validar">
                            <input type="hidden" class="form-control" name="Funcion" value="validar">
                         </div>
 
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br><br><br><br>
-                           <button type="submit" name="Boton" id="Boton" value="Boton" class="btn btn-warning btn-lg" style="background-color: #38D9B3;border-color: #38D9B3; color: black; width: 250px;">Buscar</button>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12"><br><br>
+                           <button type="submit" name="Boton" id="Boton" value="Boton" class="btn btn-warning btn-lg" style="background-color: #38D9B3;border-color: #38D9B3; font-weight:700; color: black; width: 250px;">Buscar</button>
                         </div>
 
                     </div>
@@ -214,28 +213,28 @@ Purchase:
 
             <form action="motor/controlador.php" method="POST">
                 <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                    <div class="pricing_box1_wrapper pricing_border_box2_wrapper" style="height: 320px;">
+                    <div class="pricing_box1_wrapper pricing_border_box2_wrapper" style="height: 100%;">
                         <div>
-                            <h5 align="center" style="color: #38D9B3; font-size: 30px; font-weight: bolder; text-transform: capitalize;">Actualiza aquí tu información de contacto</h5>
+                            <h2 align="center" style="color:#111111; font-size: 30px;"">Actualiza aquí tu información</h2>
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><br>
-                           <label class="input" for="" style="font-family: 'Barlow', sans-serif;">Nombres y apellidos</label>
+                           <label style="color:#111111;" class="input" for="" style="font-family: 'Barlow', sans-serif;">Nombres y apellidos</label>
                            <input readonly="" type="text" class="form-control" required="" value="<?php echo $rowper[1].' '.$rowper[2].' '.$rowper[3].' '.$rowper[4]?>">
                         </div>
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><br>
-                           <label class="input" for="GD00" style="font-family: 'Barlow', sans-serif;">Correo electrónico *</label>
+                           <label style="color:#111111;" class="input" for="GD00" style="font-family: 'Barlow', sans-serif;">Correo electrónico *</label>
                            <input type="mail" class="form-control" name="GD00" id="GD00" required="" value="<?php echo $rowper[7]?>">
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><br>
-                           <label class="input" for="GD01" style="font-family: 'Barlow', sans-serif;">Telefono *</label>
+                           <label style="color:#111111;" class="input" for="GD01" style="font-family: 'Barlow', sans-serif;">Telefono *</label>
                            <input type="text" class="form-control" name="GD01" id="GD01" required="" value="<?php echo $rowper[6]?>">
                         </div>
 
                         <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12"><br>
-                           <label class="input" for="GD02">Dirección de residencia *</label>
+                           <label style="color:#111111;" class="input" for="GD02">Dirección de residencia *</label>
                            <input type="mail" class="form-control" name="GD02" id="GD02" required="" value="">
                            <input type="hidden" class="form-control" name="Archivo" value="validar">
                            <input type="hidden" class="form-control" name="Clase" value="validar">
@@ -243,8 +242,8 @@ Purchase:
                            <input type="hidden" class="form-control" name="VD00" value="<?php echo $rowper[0]?>">
                         </div>
 
-                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><br>
-                           <button type="submit" name="Boton" id="Boton" value="Boton" class="btn btn-warning btn-lg" style="background-color: #38D9B3; border-color: #38D9B3;color: black; width: 250px;">Guardar Datos</button>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-bottom:25px; text-align:center;"><br>
+                           <button type="submit" name="Boton" id="Boton" value="Boton" class="btn btn-warning btn-lg" style="background-color: #38D9B3; border-color: #38D9B3;font-weight:700; color: black; width: 250px;">Actualizar Datos</button>
                         </div>
                     </div>
                 </div>
