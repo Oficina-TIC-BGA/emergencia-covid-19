@@ -2997,6 +2997,7 @@ ul{
 .jp_pricing_main_wrapper{
 	float:left;
 	width:100%;
+	padding-top: 20px;
 	padding-bottom:30px;
 	text-align:center;
 }
@@ -4341,6 +4342,7 @@ background:#fff;
 .nuevaclase1{
 	float:left;
 	padding-top:70px;
+	padding-bottom: 70px;
 }
 
 #imagendiagrama{
