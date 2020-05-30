@@ -16,6 +16,8 @@ header {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
       float: right;
+padding-top: 5px;
+  
 }
 .house_toggle i{
 	font-size:17px;

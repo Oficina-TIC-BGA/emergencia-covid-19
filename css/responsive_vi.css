@@ -42,7 +42,7 @@
 		display:inline-block;
 	}
 	.mainmenu ul li a{
-		padding: 0px 14px 47px 10px;
+		padding: 10px 14px 10px 10px;
 	}
 	.mainmenu:after{
 		display:none;
@@ -137,7 +137,7 @@
 	}
 	.gc_logo{
 		position: relative;
-		top: -30px;
+		top: -18px;
 	}
 	.jp_spotlight_slider_cont_Wrapper li{
 		float:none;
@@ -256,6 +256,7 @@
 		margin-top:30px;
 	}
 }
+
 @media (max-width: 580px){
 	.jp_job_post_right_cont li{
 		float:none;
@@ -271,6 +272,9 @@
 		width:100%;
 		padding-left:0;
 		padding-top:20px;
+	}
+	.jp_top_header_main_wrapper{
+		display: none;
 	}
 }
 @media (max-width: 380px){
